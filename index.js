@@ -14,7 +14,7 @@ app.use(cors())
 
 
 app.get('/',(req,res)=>{
-    res.end("Welcome to Solo Traveller Backend")
+    res.end("Server started")
 })
 
 
